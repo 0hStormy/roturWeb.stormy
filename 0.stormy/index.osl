@@ -1,7 +1,7 @@
-current_tab_name = {"title":"0Stormy","icon":"image https://avatars.githubusercontent.com/u/80485413?v=4 20"}
+current_tab_name = {"title":"0Stormy","icon":"image https://avatars.githubusercontent.com/u/80485413?v=4 50"}
 if onload (
   ifrm = "https://0stormy.me".iframeNew()
   ifrm.iframeShow()
 )
-ifrm.iframeResize(frame.width, frame.height)
-ifrm.iframeGoto(frame.x, frame.y)
+ifrm.iframeResize(frame.width, frame.height - 30)
+ifrm.iframeGoto(0, -15)
